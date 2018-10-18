@@ -94,7 +94,7 @@ input[type=text], input[type=password] {
     caret-color: #4CAF50;
 		border: 0;
     padding-left: 0;
-    color: gray;
+    color: black;
 }
 
 button {
