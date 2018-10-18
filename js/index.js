@@ -2,6 +2,20 @@
 
 $(document).ready(function(){
 
+  $('.alert-msg').hide();
+
+  var alert = "Logged out of last session!";
+
+  function displayAlertMsg(msg) {
+    $('.alert-msg')
+      .addClass('info')
+      .html(msg)
+      .delay(200)
+      .slideDown(700)
+  }
+
+  displayAlertMsg(alert);
+
   var username = $('input[type=text]');
   var password = $('input[type=password]');
 
@@ -33,5 +47,5 @@ $(document).ready(function(){
        button.removeClass('activeButton');
     }
   };
-  
+
 });
