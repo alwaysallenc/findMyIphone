@@ -14,19 +14,16 @@
 }
 
 .double-row {
-/* height: 16.66%;  */
 flex-grow: 2;
 }
 
 .single-row {
-/* 		height: 8.33%; */
 flex-grow: 1;
- }
+}
 
 #icon-box {
   background-color: teal;
   display: table-cell;
-/*   vertical-align: bottom; */
 
 }
 
@@ -40,36 +37,39 @@ flex-grow: 1;
 #title-box>h1 {
 	font-weight: 70;
 }
+
 #app-inputs-top, #app-inputs-bottom  {
 	border: solid 0.75px gray;
 	width: 90%;
 	margin: auto;
   padding: 9px;
 }
+
 #app-inputs-top {
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;}
+
 #app-inputs-bottom {
 	border-top: 0;
 	border-bottom-left-radius: 8px;
 	border-bottom-right-radius: 8px;
 }
+
 label {
   width: 25%;
   display: inline-block;
-  float: left;
   text-align: left;
-  font-weight: 70; \
+  font-weight: 70;
   padding-right: 0;
-/*   font-size: 0.6em;  */
 }
+
 input[type=text], input[type=password] {
     caret-color: #4CAF50;
 		border: 0;
     padding-left: 0;
-    font-color: lightgray;
-/* 		padding: 7px;  */
+    color: lightgray;
 }
+
 button {
     background-color: #ffffff;
     color: #4c4c4c;
@@ -81,3 +81,4 @@ button {
    border: none;
     cursor: pointer;
    color: #4CAF50;
+}
